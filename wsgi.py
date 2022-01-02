@@ -1,6 +1,6 @@
-from app.main import app
+from app.main import server
 
 if __name__ == "__main__":
     from waitress import serve
-    serve(app)
+    serve(server)
     # app.run()
